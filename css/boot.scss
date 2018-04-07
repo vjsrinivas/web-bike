@@ -1,0 +1,52 @@
+$font-stack: "Istok Web", sans-serif;
+$utk: #FF8200;
+$smokey: #58595B;
+$globe: #006C93;
+
+@mixin css-trans($sec){
+    transition: $sec ease-in;
+    -webkit-transform: $sec ease-in;
+}
+
+body{
+    font-family: $font-stack;
+    @include css-trans(1);
+}
+
+.container-fluid.top{
+    padding: 0;
+}
+
+.navbar.bg-light{
+    background-color: $utk !important;
+    padding: 1rem 10rem !important;
+    .navbar-brand{
+        color: white !important;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .nav-item.active{
+        .nav-link{
+            color: white !important;
+            
+        }
+        .a{
+            padding-top:17px;
+        }
+    }
+
+    .navbar-nav{
+        font-size: 20px;
+    }
+
+    .nav-link{
+        color: rgba(255,255,255,0.5);
+
+    }
+}
+
+.landing{
+    background-color: $utk;
+    height: 681px;
+}

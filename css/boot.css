@@ -1,0 +1,27 @@
+body {
+  font-family: "Istok Web", sans-serif;
+  transition: 1 ease-in;
+  -webkit-transform: 1 ease-in; }
+
+.container-fluid.top {
+  padding: 0; }
+
+.navbar.bg-light {
+  background-color: #FF8200 !important;
+  padding: 1rem 10rem !important; }
+  .navbar.bg-light .navbar-brand {
+    color: white !important;
+    font-weight: 900;
+    font-size: 30px; }
+  .navbar.bg-light .nav-item.active .nav-link {
+    color: white !important; }
+  .navbar.bg-light .nav-item.active .a {
+    padding-top: 17px; }
+  .navbar.bg-light .navbar-nav {
+    font-size: 20px; }
+  .navbar.bg-light .nav-link {
+    color: rgba(255, 255, 255, 0.5); }
+
+.landing {
+  background-color: #FF8200;
+  height: 681px; }
