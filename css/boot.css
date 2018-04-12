@@ -21,6 +21,10 @@ body {
     font-size: 20px; }
   .navbar.bg-light .nav-link {
     color: rgba(255, 255, 255, 0.5); }
+  .navbar.bg-light .nav-link:hover {
+    color: white !important; }
+  .navbar.bg-light .nav-link:focus {
+    color: white !important; }
 
 .landing {
   background-color: #FF8200;
