@@ -49,9 +49,24 @@
             <div class="content">
                 <h2>Problems</h2>
 
-                <div class="card mx-auto">
+                <div class="card mx-auto" id="prob1">
                     <div class="card-body">
-                        This is some text within a card body.
+                        <span class="bullet-num">1</span>
+                        <span>This is some text within a card body.</span>
+                    </div>
+                </div>
+
+                <div class="card mx-auto" id="prob2">
+                    <div class="card-body">
+                        <span class="bullet-num">2</span>
+                        <span>This is some text within a card body.</span>
+                    </div>
+                </div>
+                
+                <div class="card mx-auto" id="prob3">
+                    <div class="card-body">
+                        <span class="bullet-num">3</span>
+                        <span>This is some text within a card body.</span>
                     </div>
                 </div>
             </div>
@@ -68,8 +83,8 @@
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <div class="card-footer bg-primary btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@ex1">
-                                    Hello
+                                <div class="card-footer bg-utk btn btn-utk" data-toggle="modal" data-target="#exampleModal" data-whatever="@ex1">
+                                    Learn More
                                 </div>
                             </div>
                         </div>
@@ -80,8 +95,8 @@
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <div class="card-footer bg-primary btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@ex2">
-                                    Hello
+                                <div class="card-footer bg-utk btn btn-utk" data-toggle="modal" data-target="#exampleModal" data-whatever="@ex2">
+                                    Learn More
                                 </div>
                             </div>
                         </div>
@@ -92,8 +107,8 @@
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <div class="card-footer bg-primary btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@ex3">
-                                    Hello
+                                <div class="card-footer bg-utk btn btn-utk" data-toggle="modal" data-target="#exampleModal" data-whatever="@ex3">
+                                    Learn More
                                 </div>
                             </div>
                         </div>
@@ -104,6 +119,10 @@
         <div class="container" id="faq">
             <div class="content">
                 <h2 id="faq-text">FAQ</h2>
+                <div class="body">
+                    <h3>Blah blah blah blah blah</h3>
+                    <p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+                </div>
             </div>
         </div>
         
@@ -111,8 +130,8 @@
             <div class="container ">
                 <p>Made for EF158 Spring 2018 - Project 2</p>
                 <span>
-                    <i data-feather="github"></i>
-                    <i data-feather="download"></i>
+                    <a href="https://github.com/vjsrinivas/web-bike"><i id="github" data-feather="github"></i></a>
+                    <a href="https://github.com/vjsrinivas/web-bike/archive/master.zip"><i id="download" data-feather="download"></i></a>
                 </span>
             </div>
         </footer>
@@ -132,7 +151,6 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>

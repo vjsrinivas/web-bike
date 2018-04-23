@@ -6,6 +6,9 @@ body {
 .container-fluid.top {
   padding: 0; }
 
+.container#faq .content .body {
+  margin-left: 31px; }
+
 .navbar.bg-light {
   background-color: #FF8200 !important;
   padding: 1rem 20rem !important; }
@@ -58,12 +61,15 @@ body {
 .card {
   margin-bottom: 30px; }
 
-footer.card-footer .container p {
-  margin: 0;
-  display: inline-block; }
-
-footer.card-footer .container span {
-  float: right; }
+footer.card-footer .container {
+  width: 1075px; }
+  footer.card-footer .container p {
+    margin: 0;
+    display: inline-block; }
+  footer.card-footer .container span {
+    float: right; }
+    footer.card-footer .container span a #github {
+      margin-right: 15px; }
 
 #solutions-text, #faq-text {
   margin-left: 31px; }
@@ -81,8 +87,32 @@ footer.card-footer .container span {
   background: #FF8200;
   color: white; }
 
+.bg-utk.btn-utk {
+  background-color: #FF8200 !important;
+  color: white !important;
+  border: 2px solid #FF8200; }
+
+.bg-utk.btn-utk:hover {
+  background-color: white !important;
+  color: #FF8200 !important;
+  border-color: white; }
+
 @media only screen and (max-width: 800px) {
   .navbar.bg-light {
     padding: 0.5rem 1rem !important; }
   .landing {
     margin-top: 70px; } }
+
+#prob1, #prob2 {
+  margin-bottom: 5px; }
+
+.bullet-num {
+  padding: 10px 18px;
+  border-radius: 200px;
+  color: white;
+  background: #FF8200;
+  font-weight: 900;
+  margin-right: 20px; }
+
+#prob1 .card-body .bullet-num {
+  padding: 10px 19px !important; }
