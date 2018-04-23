@@ -28,6 +28,8 @@ body{
 }
 
 .navbar.bg-light{
+    background-image: url(./img/bg-check.png) !important;
+    background-position-y: 36px;
     background-color: $utk !important;
     padding: 1rem 20rem !important;
 
@@ -60,6 +62,18 @@ body{
     .nav-link:focus{
         color: white !important;
     }
+    .nav-link.active{
+        color: white !important;
+    }
+
+    .navbar-collapse{
+        .navbar-nav{
+            background: #c56000;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 30px;
+        }
+    }
 }
 
 .top{
@@ -78,11 +92,12 @@ body{
 .landing{
     margin-top: 84px;
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8200+0,f75a00+100 */
-    background: $utk; /* Old browsers */
-    background: -moz-linear-gradient(top, $utk 34%, $utk2 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, $utk 34%, $utk2 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, $utk 34%, $utk2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$utk, endColorstr=$utk2,GradientType=0 ); /* IE6-9 */
+    background-image: url("./img/bg-check.png"), linear-gradient($utk, $utk2);
+    //background: $utk; /* Old browsers */
+    //background: -moz-linear-gradient(top, $utk 34%, $utk2 100%); /* FF3.6-15 */
+    //background: -webkit-linear-gradient(top, $utk 34%, $utk2 100%); /* Chrome10-25,Safari5.1-6 */
+    //background: linear-gradient(to bottom, $utk 34%, $utk2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$utk, endColorstr=$utk2,GradientType=0 ); /* IE6-9 */
     height: 665px;
 
     div{
@@ -91,7 +106,23 @@ body{
             padding-top: 100px;
         }
     }
+
+    .quote-box{
+        margin-top: 50px;
+        width: 560px;
+        height: 315px;
+        background-color: white;
+        border-radius: 0.25rem;
+
+        div{
+            h3,h5{
+                color: black;
+            }
+        }  
+    }
 }
+
+
 
 .card{
     margin-bottom: 30px;
@@ -178,4 +209,8 @@ footer.card-footer{
             padding: 10px 19px !important;
         }
     }
+}
+
+body{
+    position: relative;
 }

@@ -7,3 +7,9 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-title').text('New message to ' + recipient)
     modal.find('.modal-body input').val(recipient)
   })
+
+$('.').click(() => {
+    $('html, body').animate({
+        scrollTop: $('div#problems').eq(0).offset().top
+    }, 0);
+});

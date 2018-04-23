@@ -1,2 +1,6 @@
 \.vscode/
 \.bg-making
+*.svg
+*.png~
+*.kra~
+*.kra

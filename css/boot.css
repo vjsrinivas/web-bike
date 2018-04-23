@@ -10,6 +10,8 @@ body {
   margin-left: 31px; }
 
 .navbar.bg-light {
+  background-image: url(./img/bg-check.png) !important;
+  background-position-y: 36px;
   background-color: #FF8200 !important;
   padding: 1rem 20rem !important; }
   .navbar.bg-light .navbar-brand {
@@ -28,6 +30,13 @@ body {
     color: white !important; }
   .navbar.bg-light .nav-link:focus {
     color: white !important; }
+  .navbar.bg-light .nav-link.active {
+    color: white !important; }
+  .navbar.bg-light .navbar-collapse .navbar-nav {
+    background: #c56000;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px; }
 
 .top {
   background-color: #FF8200; }
@@ -42,21 +51,20 @@ body {
 .landing {
   margin-top: 84px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8200+0,f75a00+100 */
-  background: #FF8200;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #FF8200 34%, #f75a00 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #FF8200 34%, #f75a00 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #FF8200 34%, #f75a00 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$utk, endColorstr=$utk2,GradientType=0 );
-  /* IE6-9 */
+  background-image: url("./img/bg-check.png"), linear-gradient(#FF8200, #f75a00);
   height: 665px; }
   .landing div {
     color: white; }
     .landing div h1 {
       padding-top: 100px; }
+  .landing .quote-box {
+    margin-top: 50px;
+    width: 560px;
+    height: 315px;
+    background-color: white;
+    border-radius: 0.25rem; }
+    .landing .quote-box div h3, .landing .quote-box div h5 {
+      color: black; }
 
 .card {
   margin-bottom: 30px; }
@@ -116,3 +124,6 @@ footer.card-footer .container {
 
 #prob1 .card-body .bullet-num {
   padding: 10px 19px !important; }
+
+body {
+  position: relative; }
