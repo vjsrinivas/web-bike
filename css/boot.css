@@ -37,7 +37,7 @@ body {
   height: 30px; }
 
 .landing {
-  margin-top: 87px;
+  margin-top: 84px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8200+0,f75a00+100 */
   background: #FF8200;
   /* Old browsers */
@@ -49,9 +49,11 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$utk, endColorstr=$utk2,GradientType=0 );
   /* IE6-9 */
-  height: 650px; }
-  .landing div h1 {
+  height: 665px; }
+  .landing div {
     color: white; }
+    .landing div h1 {
+      padding-top: 100px; }
 
 .card {
   margin-bottom: 30px; }
@@ -63,11 +65,21 @@ footer.card-footer .container p {
 footer.card-footer .container span {
   float: right; }
 
-#solutions {
+#solutions-text, #faq-text {
   margin-left: 31px; }
 
 #problems {
-  padding: 15px 46px; }
+  padding: 50px 46px;
+  padding-bottom: 0; }
+
+.btn-utk {
+  background-color: white;
+  color: #FF8200;
+  border: 2px solid white; }
+
+.btn-utk:hover {
+  background: #FF8200;
+  color: white; }
 
 @media only screen and (max-width: 800px) {
   .navbar.bg-light {
