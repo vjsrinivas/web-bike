@@ -8,8 +8,30 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-body input').val(recipient)
   })
 
-$('.').click(() => {
-    $('html, body').animate({
-        scrollTop: $('div#problems').eq(0).offset().top
-    }, 0);
+  $(window).on('activate.bs.scrollspy', function () {
+    console.log("This event is not firing...");
 });
+
+$("#find").click(function (){
+    $('html, body').animate({
+        scrollTop: $("#problems").offset().top
+    }, 1000);
+});
+
+// code gets installed at the end of the body (after all other HTML)
+(function() {
+
+    var quotes = $(".quotes");
+    var quoteIndex = -1;
+    
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(1000)
+            .delay(2000)
+            .fadeOut(1000, showNextQuote);
+    }
+    
+    showNextQuote();
+    
+})();

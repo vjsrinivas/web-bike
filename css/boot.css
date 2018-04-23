@@ -57,6 +57,8 @@ body {
     color: white; }
     .landing div h1 {
       padding-top: 100px; }
+    .landing div .quotes {
+      display: none; }
   .landing .quote-box {
     margin-top: 50px;
     width: 560px;
