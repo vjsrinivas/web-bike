@@ -1,5 +1,7 @@
 $font-stack: "Istok Web", sans-serif;
 $utk: #FF8200;
+$transparent: #ffff0000;
+$utk2: #f75a00;
 $smokey: #58595B;
 $globe: #006C93;
 
@@ -17,9 +19,15 @@ body{
     padding: 0;
 }
 
+.container-fluid{
+    .content{
+    }
+}
+
 .navbar.bg-light{
     background-color: $utk !important;
-    padding: 1rem 10rem !important;
+    padding: 1rem 20rem !important;
+
     .navbar-brand{
         color: white !important;
         font-weight: 900;
@@ -51,7 +59,69 @@ body{
     }
 }
 
-.landing{
+.top{
     background-color: $utk;
-    height: 681px;
+}
+
+.play-parent{
+    background-color: $utk;
+}
+
+.play{
+    width: 30px;
+    height: 30px;
+}
+
+.landing{
+    margin-top: 87px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8200+0,f75a00+100 */
+    background: $utk; /* Old browsers */
+    background: -moz-linear-gradient(top, $utk 34%, $utk2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, $utk 34%, $utk2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $utk 34%, $utk2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$utk, endColorstr=$utk2,GradientType=0 ); /* IE6-9 */
+    height: 650px;
+
+    div{
+        h1{
+            color: white;
+        }
+    }
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+footer.card-footer{
+    .container{
+        p{
+            margin: 0;
+            display: inline-block;
+        }
+
+        span{
+            float: right;
+        }
+    }
+}
+
+#solutions{
+    margin-left: 31px;
+}
+
+#problems{
+    padding: 15px 46px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .navbar.bg-light{
+        padding: 0.5rem 1rem !important;
+    }       
+
+    .landing{
+        margin-top: 70px;
+    }
 }
