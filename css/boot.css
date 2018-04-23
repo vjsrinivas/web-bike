@@ -1,0 +1,131 @@
+body {
+  font-family: "Istok Web", sans-serif;
+  transition: 1 ease-in;
+  -webkit-transform: 1 ease-in; }
+
+.container-fluid.top {
+  padding: 0; }
+
+.container#faq .content .body {
+  margin-left: 31px; }
+
+.navbar.bg-light {
+  background-image: url(./img/bg-check.png) !important;
+  background-position-y: 36px;
+  background-color: #FF8200 !important;
+  padding: 1rem 20rem !important; }
+  .navbar.bg-light .navbar-brand {
+    color: white !important;
+    font-weight: 900;
+    font-size: 30px; }
+  .navbar.bg-light .nav-item.active .nav-link {
+    color: white !important; }
+  .navbar.bg-light .nav-item.active .a {
+    padding-top: 17px; }
+  .navbar.bg-light .navbar-nav {
+    font-size: 20px; }
+  .navbar.bg-light .nav-link {
+    color: rgba(255, 255, 255, 0.5); }
+  .navbar.bg-light .nav-link:hover {
+    color: white !important; }
+  .navbar.bg-light .nav-link:focus {
+    color: white !important; }
+  .navbar.bg-light .nav-link.active {
+    color: white !important; }
+  .navbar.bg-light .navbar-collapse .navbar-nav {
+    background: #c56000;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px; }
+
+.top {
+  background-color: #FF8200; }
+
+.play-parent {
+  background-color: #FF8200; }
+
+.play {
+  width: 30px;
+  height: 30px; }
+
+.landing {
+  margin-top: 84px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8200+0,f75a00+100 */
+  background-image: url("./img/bg-check.png"), linear-gradient(#FF8200, #f75a00);
+  height: 665px; }
+  .landing div {
+    color: white; }
+    .landing div h1 {
+      padding-top: 100px; }
+    .landing div .quotes {
+      display: none; }
+  .landing .quote-box {
+    margin-top: 50px;
+    width: 560px;
+    height: 315px;
+    background-color: white;
+    border-radius: 0.25rem; }
+    .landing .quote-box div h3, .landing .quote-box div h5 {
+      color: black; }
+
+.card {
+  margin-bottom: 30px; }
+
+footer.card-footer .container {
+  width: 1075px; }
+  footer.card-footer .container p {
+    margin: 0;
+    display: inline-block; }
+  footer.card-footer .container span {
+    float: right; }
+    footer.card-footer .container span a #github {
+      margin-right: 15px; }
+
+#solutions-text, #faq-text {
+  margin-left: 31px; }
+
+#problems {
+  padding: 50px 46px;
+  padding-bottom: 0; }
+
+.btn-utk {
+  background-color: white;
+  color: #FF8200;
+  border: 2px solid white; }
+
+.btn-utk:hover {
+  background: #FF8200;
+  color: white; }
+
+.bg-utk.btn-utk {
+  background-color: #FF8200 !important;
+  color: white !important;
+  border: 2px solid #FF8200; }
+
+.bg-utk.btn-utk:hover {
+  background-color: white !important;
+  color: #FF8200 !important;
+  border-color: white; }
+
+@media only screen and (max-width: 800px) {
+  .navbar.bg-light {
+    padding: 0.5rem 1rem !important; }
+  .landing {
+    margin-top: 70px; } }
+
+#prob1, #prob2 {
+  margin-bottom: 5px; }
+
+.bullet-num {
+  padding: 10px 18px;
+  border-radius: 200px;
+  color: white;
+  background: #FF8200;
+  font-weight: 900;
+  margin-right: 20px; }
+
+#prob1 .card-body .bullet-num {
+  padding: 10px 19px !important; }
+
+body {
+  position: relative; }
