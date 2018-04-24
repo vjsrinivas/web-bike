@@ -191,6 +191,15 @@ footer.card-footer{
     .landing{
         margin-top: 70px;
     }
+
+    .navbar-collapse{
+        .navbar-nav{
+            background: none;
+            padding-left: 0;
+            padding-right: 0;
+            border-radius: 0;
+        }
+    }
 }
 
 #prob1, #prob2{
