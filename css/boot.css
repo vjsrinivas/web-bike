@@ -9,8 +9,11 @@ body {
 .container#faq .content .body {
   margin-left: 31px; }
 
-.container#future .content .body {
-  margin-left: 31px; }
+.container#future {
+  padding-top: 15px;
+  border-top: 1px solid #58595B; }
+  .container#future .content .body {
+    margin-left: 31px; }
 
 .navbar.bg-light {
   background-image: url(./img/bg-check.png) !important;
