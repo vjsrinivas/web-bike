@@ -27,6 +27,14 @@ body{
     }
 }
 
+.container#future{
+    .content{
+        .body{
+            margin-left: 31px;
+        }
+    }
+}
+
 .navbar.bg-light{
     background-image: url(./img/bg-check.png) !important;
     background-position-y: 36px;
