@@ -13,7 +13,8 @@ $('#exampleModal').on('show.bs.modal', function (event) {
         modal.find('.modal-body').text('Better bike racks will be installed to keep bikes safe during class and overnight. These will be Vol Card activated and free to use for all students.')
     }
     else{
-        
+        modal.find('.modal-title').text('Bike Racks');
+        modal.find('.modal-body').text('Bike lanes will be painted on roads around campus to leave a designated space for bike riders to travel around campus. The addition of bike lanes on roads around campus will allow bicycle riders to travel around campus safely.')
     }
     modal.find('.modal-body input').val(recipient)
   })
