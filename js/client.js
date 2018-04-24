@@ -4,7 +4,17 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
     var modal = $(this)
-    modal.find('.modal-title').text('New message to ' + recipient)
+    if(recipient == "@ex1"){
+        modal.find('.modal-title').text('PED Walkway')
+        modal.find('.modal-body').text('Bike lanes in two directions will be painted on PED Walkway to separate walkers and faster traffic like bikes. This will minimize hazardous interactions with pedestrians and allow both groups to get to their destinations much quicker and safer.')
+    }
+    else if(recipient == "@ex2"){
+        modal.find('.modal-title').text('Bike Racks');
+        modal.find('.modal-body').text('Better bike racks will be installed to keep bikes safe during class and overnight. These will be Vol Card activated and free to use for all students.')
+    }
+    else{
+        
+    }
     modal.find('.modal-body input').val(recipient)
   })
 
